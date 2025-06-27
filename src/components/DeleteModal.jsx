@@ -5,12 +5,12 @@ const DeleteModal = ({ show, handleClose, handleDelete }) => {
     return (
         <Modal show={show} onHide={handleClose}>
             <Modal.Header closeButton>
-                <Modal.Title>Eliminar contacto</Modal.Title>
+                <Modal.Title>Are you sure?</Modal.Title>
             </Modal.Header>
-            <Modal.Body>¿Estás seguro de que deseas eliminar este contacto?</Modal.Body>
+            <Modal.Body>If you delete this thing the entire universe will go down!</Modal.Body>
             <Modal.Footer>
-                <Button variant="secondary" onClick={handleClose}>Cancelar</Button>
-                <Button variant="danger" onClick={handleDelete}>Eliminar</Button>
+                <Button variant="primary" onClick={handleClose}>Oh no!</Button>
+                <Button variant="danger" onClick={handleDelete}>Yes baby!</Button>
             </Modal.Footer>
         </Modal>
     );

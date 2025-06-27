@@ -19,7 +19,7 @@ export const AddContact = () => {
       <h2>Add Contact</h2>
       <ContactForm onSubmit={handleSubmit} />
       <div className="mt-3">
-        <Link to="/">← Back to contacts</Link>
+        <Link to="/"><i class="fa-solid fa-arrow-left"></i> Back to contacts</Link>
       </div>
     </div>
   );
