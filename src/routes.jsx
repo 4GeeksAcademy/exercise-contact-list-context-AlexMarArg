@@ -11,7 +11,7 @@ import { Page404 } from "./pages/Page404";
 
 export const router = createBrowserRouter(
   createRoutesFromElements(
-    <Route>
+    <Route errorElement={<Page404/>}>
       <Route path="/" element={<ContactList />} />
       <Route path="/add" element={<AddContact />} />
       <Route path="/edit/:id" element={<EditContact />} />
