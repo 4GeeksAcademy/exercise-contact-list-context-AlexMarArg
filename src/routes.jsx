@@ -1,9 +1,4 @@
-import {
-  createBrowserRouter,
-  createRoutesFromElements,
-  Route
-} from "react-router-dom";
-
+import { createBrowserRouter,  createRoutesFromElements, Route} from "react-router-dom";
 import { ContactList } from "./pages/ContactList";
 import { AddContact } from "./pages/AddContact";
 import { EditContact } from "./pages/EditContact";
