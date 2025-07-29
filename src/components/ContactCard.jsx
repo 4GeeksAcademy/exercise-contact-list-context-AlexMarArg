@@ -73,26 +73,3 @@ return(<div className="card bg-light shadow mb-3">
       </div>
     </div>);
 };
-/*import React from "react";
-import PropTypes from "prop-types";
-
-const ContactCard = (props) => {
-    <li className="d-flex flex-row">
-        <div><img src={props.imageUrl}></img></div>
-        <div className="d-flex flex-column">
-            <div className="p-2"><h4 className="px-3">{props.fullName}</h4></div>
-            <div className="p-2"><i className="fa-solid fa-location-dot px-3"></i>{props.adress}</div>
-            <div className="p-2"><i className="fa-solid fa-phone-flip px-3"></i>{props.phone}</div>
-            <div className="p-2"><i className="fa-solid fa-envelope px-3"></i>{props.email}</div>
-        </div>
-        <div className="d-flex justify-content-end"><i className="fa-solid fa-pencil px-5"></i><i className="fa-solid fa-trash-can"></i></div>
-    </li>
-};
-ContactCard.propTypes = {
-    imageUrl: PropTypes.string,
-    fullName: PropTypes.string,
-    adress: PropTypes.string,
-    phone: PropTypes.string,
-    email: PropTypes.string
-};
-export default ContactCard;*/
