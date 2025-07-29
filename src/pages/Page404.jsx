@@ -22,7 +22,8 @@ export const Page404 = () => {
       </div>
     </div>
   </div>
-  <style>{`.page_404 {
+  <style>{`
+  .page_404 {
   padding: 40px 0; 
   background: #fff;
   font-family: "Arvo", serif;}
